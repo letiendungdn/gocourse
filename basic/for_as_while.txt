@@ -1,0 +1,28 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	//  for as while with break
+	// sum := 0
+
+	// for {
+	// 	sum += 1
+	// 	fmt.Println(sum)
+	// 	if sum > 10 {
+	// 		break
+	// 	}
+	// }
+
+	num := 1
+	for	 num <= 10 {
+		if condition := num % 2; condition == 0 {
+			num++
+			continue // skip even numbers
+			
+		}
+		fmt.Println(num)
+		num++
+	}
+}

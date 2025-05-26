@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main() {
+	//  var  arrayName [size]elementType
+
+	var numbers [5]int // Declare an array of 5 integers
+	fmt.Println("Initial array:", numbers)
+
+	numbers[4] = 20
+	fmt.Println("Updated array:", numbers)
+
+	numbers[0] = 9
+	fmt.Println("After updating first element:", numbers)
+
+	fruits := [3]string{"Apple", "Banana", "Cherry"} // Declare and initialize an array of strings
+	fmt.Println("Fruits array:", fruits)
+
+	fmt.Println("Third element in fruits:", fruits[2])
+}
