@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main() {
+	// if condition {
+	// 	block of scope
+	// }
+
+	age := 20
+
+	if age >= 18 {
+		fmt.Println("You are an adult.")
+	} else {
+		fmt.Println("You are a minor.")
+	}
+
+	if 11 %2 == 0 || 5 % 2 == 0 {
+		fmt.Println("11 is even.")
+	} else {
+		fmt.Println("11 is odd.")
+	}
+}
